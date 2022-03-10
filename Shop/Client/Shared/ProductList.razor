@@ -1,0 +1,84 @@
+﻿<ul class="list-unstyled">
+    @foreach (var product in products)
+    {
+        <li class="media my-3">
+            <div class="media-img-wrapper mr-2">
+                <a href="/product/@product.Id">
+                    <img class="media-img" src="@product.Image" alt="@product.Title"/>
+                </a>
+            </div>
+            <div class="media-body"> 
+                <a href="/product/@product.Id">
+                    <h4 class="mb-0">@product.Title</h4>
+                </a>
+                <p>@product.Description</p>
+                @if (product.OriginalPrice > product.Price)
+                {
+                    <h6 class="text-muted origin-price">$@product.OriginalPrice</h6>
+                }
+                <h5 class="price">
+                    $@product.Price
+                </h5>
+            </div>
+        </li>
+    }
+</ul>
+
+@code {
+    List<Product> products = new List<Product> 
+    { new Product
+    {
+        Id = new Guid(),
+        CategoryId = 1,
+        Title = "The Hitchhikers Guide to the Galaxy",
+        Description = "The Hitchhikers Guide to the Galaxy ",
+        Image = "https://avatars.mds.yandex.net/i?id=0e3f937d75ce14bbdd4b912fca076836-5192502-images-thumbs&n=13",
+        Price = 9.9m,
+        OriginalPrice = 19.99m,
+    },
+        new Product
+        {
+            Id = new Guid(),
+            CategoryId = 2,
+            Title = "Half-Life",
+            Description = "Half-Life 2 is a 2004 first-person shooter game developer and publisher by Valve",
+            Image = "https://avatars.mds.yandex.net/i?id=12307ee9c79c02a49069c74c62e91135-5879932-images-thumbs&n=13",
+            Price = 8.19m,
+            OriginalPrice = 29.99m,
+            
+        },
+        new Product
+        {
+            Id = new Guid(),
+            CategoryId = 3,
+            Title = "Steam",
+            Description = "The purpose of this guide is to show you how to make your profile beautiful from animations down to the exact font type.",
+            Image = "https://avatars.mds.yandex.net/i?id=f2c1c6b6c7b42af1b166cf2228723f74-4612841-images-thumbs&n=13",
+            Price = 14.99m,
+            OriginalPrice = 30.30m,
+        },
+        new Product
+        {
+            Id = new Guid(),
+            CategoryId = 4,
+            Title = "Dota",
+            Description = "Dota 2 Компьютерная игра (MOBA)Википедия Компьютерная многопользовательская командная игра в жанре multiplayer online battle arena",
+            Image = "https://avatars.mds.yandex.net/i?id=f358069f4ee6728b14dfe58dd5fcc51a-5345552-images-thumbs&n=13",
+            Price = 25.15m,
+            OriginalPrice = 85.99m,
+            
+        },
+        new Product
+        {
+            Id = new Guid(),
+            CategoryId = 5,
+            Title = "WarFace",
+            Description = "Игра разработана студиями компании Crytek: украинским филиалом Crytek Kiev, британским филиалом Crytek UK и турецким филиалом Crytek Istanbul",
+            Image = "https://avatars.mds.yandex.net/i?id=015c5d70514fed472352bab390d4f65b-5512866-images-thumbs&n=13",
+            Price = 19.33m,
+            OriginalPrice = 45.13m,
+        }
+        
+    };
+    
+}

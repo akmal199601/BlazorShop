@@ -1,0 +1,12 @@
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\bin\Debug\net5.0\Shop.Shared.deps.json
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\bin\Debug\net5.0\Shop.Shared.dll
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\bin\Debug\net5.0\ref\Shop.Shared.dll
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\bin\Debug\net5.0\Shop.Shared.pdb
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.csproj.AssemblyReference.cache
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.AssemblyInfoInputs.cache
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.AssemblyInfo.cs
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.csproj.CoreCompileInputs.cache
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.dll
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\ref\Shop.Shared.dll
+C:\Users\akmal199601\Desktop\Project\Practice\Blazor\Shop\Shop\Shared\obj\Debug\net5.0\Shop.Shared.pdb
